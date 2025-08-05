@@ -1,0 +1,86 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  gap: 2rem;
+}
+
+.hero-text {
+  max-width: 500px;
+  flex:1;
+}
+
+.hero-text h1 {
+  font-size:4rem;
+  margin: 0;
+  color: #111;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #333;
+}
+
+.highlight {
+  color: rgb(62, 190, 90);
+  font-size: 4.2rem; /* Accent color */
+}
+
+.hero-button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: rgba(59, 126, 73);
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: rgb(92, 168, 108);
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.hero-image img {
+  width: 400px;
+  height:400px;
+  border-radius: 50%;
+  object-fit:cover;
+  margin-top: 50px;
+}
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 4rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+}
+.profile-blob {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  /* clip-path: path('M55.2,-63.7C69.2,-51.4,76.4,-34.7,76.4,-18.2C76.4,-1.7,69.3,13.6,60.5,28.5C51.7,43.4,41.1,57.9,26.9,64.8C12.8,71.6,-4.9,70.7,-21.2,65.1C-37.4,59.6,-52.1,49.4,-61.1,35.6C-70.2,21.8,-73.6,4.3,-69.2,-11.7C-64.9,-27.6,-52.8,-42,-38,-55.2C-23.3,-68.3,-5.9,-80.2,10.7,-82.5C27.3,-84.9,54.6,-77.1,55.2,-63.7Z'); */
+  transition: clip-path 0.3s ease-in-out;
+  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.1));
+}

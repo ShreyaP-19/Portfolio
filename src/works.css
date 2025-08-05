@@ -1,0 +1,50 @@
+
+.works-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.work-card {
+  display: flex;
+  background-color: #edfaed;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: left;
+  gap: 20px;
+  align-items: center;
+}
+
+.work-image {
+  flex: 1;
+  max-width: 280px;
+}
+
+.work-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.work-content {
+  flex: 2;
+}
+
+.work-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: green;
+}
+
+.work-description {
+  font-size: 1rem;
+  color: rgb(20, 58, 20);
+  line-height: 1.6;
+}
