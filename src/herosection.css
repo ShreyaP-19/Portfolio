@@ -27,7 +27,7 @@
 
 .highlight {
   color: rgb(62, 190, 90);
-  font-size: 3rem; /* Accent color */
+  font-size: 4rem; /* Accent color */
 }
 
 .hero-button {
@@ -70,12 +70,16 @@
   }
 
   .hero-text h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .hero-text h2 {
     font-size: 1.5rem;
   }
+  .highlight {
+  color: rgb(62, 190, 90);
+  font-size: 3rem; /* Accent color */
+}
 }
 .profile-blob {
   width: 300px;

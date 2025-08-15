@@ -21,7 +21,7 @@ const About = () => {
     <div className="about-text">
       <h3>I’m Shreya</h3>
       <p>
-         Enthusiastic and driven fourth-year Computer Science student with a CGPA of 9.235, passionate about full stack web development, software engineering. Eager to contribute to real-world projects and continue learning cutting-edge technologies
+         Enthusiastic and driven fourth-year Computer Science student with a CGPA of 9.2, passionate about full stack web development, software engineering. Eager to contribute to real-world projects and continue learning cutting-edge technologies.
       </p>
     </div>
   </div>
