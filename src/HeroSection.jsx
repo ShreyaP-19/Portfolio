@@ -18,8 +18,8 @@ function HeroSection() {
         <h1>Hi,</h1>
         <h1>I’m <span className="highlight">Shreya P</span></h1>
         <h2>Student</h2>
-        <a href={process.env.PUBLIC_URL + '/resume.pdf'} download="Shreya_Resume.pdf">
-        <button className="hero-button">Download My Resume</button>
+        <a href="/resume.pdf" download="Shreya_Resume.pdf">
+          <button className="hero-button">Download My Resume</button>
         </a>
       </div>
       <div className="hero-image" >
