@@ -10,7 +10,7 @@ function Education() {
     <div className="content">
       <p className="role">Bachelor of Technology <span>📅 2022 - 2026</span></p>
       <h3 id="topic">Government College of Engineering, Kannur</h3>
-      <p>Pursuing B.Tech at Government College of Engineering, Kannur (2022–2026), currently in the sixth semester under KTU with a CGPA of 9.17 (up to S5). Actively involved in various co-curricular activities including volunteering with NSS, mentoring at Actuator by ROBOCEK, and participating in events like the Nueva ISTE Convention and the Cyber Security Workshop at Dhruva '22.</p>
+      <p>Pursuing B.Tech at Government College of Engineering, Kannur (2022–2026), currently in the seventh semester under KTU with a CGPA of 9.235 (up to S6). Actively involved in various co-curricular activities including volunteering with NSS, mentoring at Actuator by ROBOCEK, and participating in events like the Nueva ISTE Convention and the Cyber Security Workshop at Dhruva '22.</p>
     </div>
   </div>
 
