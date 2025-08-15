@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import About from './About';
 import Skills from './Skills';
 import Works from './Works';
+import Education from './education';
 
 
 function Home() {
@@ -41,7 +42,7 @@ function Home() {
 };
 
   useEffect(() => {
-  const sections = ["home", "about", "skills", "works", "contact"];
+  const sections = ["home", "about", "skills", "works", "education"];
   const setInitialSection = () => {
     for (let section of sections) {
       const el = document.getElementById(section);
@@ -93,6 +94,11 @@ function Home() {
         </a>
       </li>
       <li>
+        <a onClick={(e) => clickEvent(e, "education")} className={active === "education" ? "active" : ""} style={{color:"rgba(59, 126, 73)"}}>
+          Education
+        </a>
+      </li>
+      <li>
         <a onClick={(e) => clickEvent(e, "skills")} className={active === "skills" ? "active" : ""} style={{color:"rgba(59, 126, 73)"}}>
           Skills
         </a>
@@ -100,11 +106,6 @@ function Home() {
       <li>
         <a onClick={(e) => clickEvent(e, "works")} className={active === "works" ? "active" : ""} style={{color:"rgba(59, 126, 73)"}}>
           Works
-        </a>
-      </li>
-      <li>
-        <a onClick={(e) => clickEvent(e, "contact")} className={active === "contact" ? "active" : ""} style={{color:"rgba(59, 126, 73)"}}>
-          Contact
         </a>
       </li>
     </ul>
@@ -115,13 +116,16 @@ function Home() {
       <section id="about">
         <About/>
       </section>
+      <section id="education">
+        <Education/>
+      </section>
       <section id="skills">
         <Skills/>
       </section>
       <section id="works">
         <Works/>
       </section>
-      <div style={{height:"500px"}}></div>
+      <div style={{height:"60px"}}></div>
     </>
   )
 }
