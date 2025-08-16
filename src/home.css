@@ -48,15 +48,15 @@ section {
 }
 @media (max-width: 768px) {
   #about, #education, #skills, #works {
-        scroll-margin-top: 100px; /* height of your mobile navbar */
+        scroll-margin-top: 60px; /* height of your mobile navbar */
     }
-    .navbar{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .nav-links li a {
-  font-size: 1.1rem;
-  font-weight: 500;
+    @media (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px; /* Reduce horizontal padding */
+  }
+
+  .nav-links {
+    gap: 15px; /* Reduce the gap between nav links */
+  }
 }
 }

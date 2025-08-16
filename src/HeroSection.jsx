@@ -18,9 +18,9 @@ function HeroSection() {
         <h1>Hi,</h1>
         <h1>I’m <span className="highlight">Shreya P</span></h1>
         <h2>Student</h2>
-        <a href="/resume.pdf" download="Shreya_Resume.pdf">
-          <button className="hero-button">Download My Resume</button>
-        </a>
+        <a href="https://drive.google.com/uc?export=download&id=1DP_jRYHSL2EvkLN8lr5Tq90wEEEZ-QKs" download="Shreya_Resume.pdf">
+  <button className="hero-button">Download My Resume</button>
+</a>
       </div>
       <div className="hero-image" >
         <img src={me} alt="Profile" className="profile-blob" data-aos="fade-down"/>
