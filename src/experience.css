@@ -1,0 +1,41 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.experience-card {
+  background-color: #edfaed;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.experience-content {
+  color: #1b5229;
+}
+
+.experience-role {
+  font-weight: 600;
+  color: #5d9066;
+  margin-bottom: 0.5rem;
+}
+
+.experience-role span {
+  margin-left: 1rem;
+  color: #5d9066;
+  font-weight: 500;
+}
+
+#experience-topic {
+  margin: 0.2rem 0 1rem;
+  color: #17a33a;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

@@ -9,6 +9,8 @@ import About from './About';
 import Skills from './Skills';
 import Works from './Works';
 import Education from './education';
+import Experience from './Experience';
+
 
 
 function Home() {
@@ -42,7 +44,7 @@ function Home() {
 };
 
   useEffect(() => {
-  const sections = ["home", "about", "skills", "works", "education"];
+  const sections = ["home", "about", "education", "skills", "experience", "works"];
   const setInitialSection = () => {
     for (let section of sections) {
       const el = document.getElementById(section);
@@ -104,6 +106,11 @@ function Home() {
         </a>
       </li>
       <li>
+        <a onClick={(e) => clickEvent(e, "experience")} className={active === "experience" ? "active" : ""} style={{color:"rgba(59, 126, 73)"}}>
+          Experience
+        </a>
+      </li>
+      <li>
         <a onClick={(e) => clickEvent(e, "works")} className={active === "works" ? "active" : ""} style={{color:"rgba(59, 126, 73)"}}>
           Works
         </a>
@@ -121,6 +128,9 @@ function Home() {
       </section>
       <section id="skills">
         <Skills/>
+      </section>
+      <section id="experience">
+        <Experience/>
       </section>
       <section id="works">
         <Works/>
