@@ -18,7 +18,7 @@ function HeroSection() {
         <h1>Hi,</h1>
         <h1>I’m <span className="highlight">Shreya P</span></h1>
         <h2>BTech Graduate</h2>
-        <a href="https://drive.google.com/file/d/11TZIEx21Jt7uhK6DO1MPh_wV8k3Ickez/view?usp=sharing" download="Shreya_Resume.pdf">
+        <a href="https://drive.google.com/uc?export=download&id=11TZIEx21Jt7uhK6DO1MPh_wV8k3Ickez" download="Shreya_Resume.pdf" target="_blank" rel="noopener noreferrer">
           <button className="hero-button">Download My Resume</button>
         </a>
       </div>
